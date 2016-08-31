@@ -2,6 +2,7 @@ body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
 
 
+/*
 #features {
         position: absolute;
         top: 0;
@@ -13,11 +14,17 @@ body { margin:0; padding:0; }
     }
     #map canvas {
         cursor: crosshair;
-    }
+
+    }*/
 
     .mapboxgl-popup {
+          background:#DBEFFF;
+          color:#444;
            max-width: 400px;
            font: 16px/20px 'Garamond',Arial, Garamond;
+           font-weight: 600;
+
+
        }
 
 .button{
@@ -30,7 +37,20 @@ border-radius: 3px;
 font-size: 12px;
 text-align: center;
 color: #fff;
-background: #68B9FF
+background: #4AA9FC
+}
+
+.button_layer{
+position: relative;
+margin: 10px;
+height: 50px;
+width:50px;
+border: none;
+border-radius: 3px;
+font-size: 12px;
+text-align: center;
+color: #fff;
+background: #4AA9FC
 }
 
 #fit_to{
@@ -46,15 +66,10 @@ background: #68B9FF
        background: #fff;
        padding: 10px;
        font-family: 'Open Sans', sans-serif;
-   }
-*/
+   }*/
 
-/*
-.mapboxgl-popup {
-    max-width: 400px;
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
-*/
+
+
 /*
 .map-icon-label .map-icon {
 	font-size: 24px;
