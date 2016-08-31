@@ -4,8 +4,8 @@
     <meta charset='utf-8' />
     <title></title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css' rel='stylesheet' />
 
     // Mapbox Geocoder
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
@@ -20,6 +20,26 @@
 <body>
 
 <div id='map'></div>
+<!-- <div id='location-title'></div>
+<div id='location-description'></div> -->
+// fly to Area
+<div id='fit_to'>
+<button onClick="changeButton('Munich') ; popUp('Munich')" class="button">Fly to Munich</button></br>
+<button onClick="changeButton('Alps')" class="button"> Fly to the Alps</button></br>
+<button onClick="changeButton('Europe')"class="button" > Fly to Europe </button></br>
+<button onClick="changeButton('World')" class="button">Fly to the World </button></br>
+</div>
+
+
+// Change Style
+<!--
+<div id='menu'>
+    <button onClick="changeStyle('dark')" id ="button" >Dark </button></br>
+    <button onClick="changeStyle('satellite')"id ="button">Satellite </button></br>
+    <button onClick="changeStyle('light')"id ="button">Light </button></br>
+</div>
+-->
+
 <pre id='features'></pre>
 <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 // Slideshow containers
@@ -27,7 +47,7 @@
   <div class='map-overlay'>
     <h2 id='location-title'></h2>
     <p id='location-description'></p>
-    <small>Text credit: <a target='_blank' href='http://www.nycgo.com/neighborhoods'>nycgo.com</a></small>
+
   </div>
 </div>
 

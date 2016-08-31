@@ -1,7 +1,7 @@
 body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
 
-/*
+
 #features {
         position: absolute;
         top: 0;
@@ -14,7 +14,7 @@ body { margin:0; padding:0; }
     #map canvas {
         cursor: crosshair;
     }
-*/
+
     .map-overlay-container {
         position: absolute;
         width: 35%;
@@ -42,8 +42,51 @@ body { margin:0; padding:0; }
     }
 
 
+/* Mapbox Fit map to a bounding style
+#fit_to {
+        display: block;
+        position: relative;
+        margin: 0px auto;
+        width: 10%;
+        height: 85px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }*/
 
 
+.button{
+position: relative;
+margin: 10px;
+height: 50px;
+width:50px;
+border: none;
+border-radius: 3px;
+font-size: 12px;
+text-align: center;
+color: #fff;
+background: #ee8a65;
+}
+
+#fit_to{
+  position:absolute;
+  top:50px;
+  height:300px;
+  width:150px;
+}
+
+/*Change Style Menu
+#menu {
+       position: absolute;
+       background: #fff;
+       padding: 10px;
+       font-family: 'Open Sans', sans-serif;
+   }
+*/
 
 /*
 .mapboxgl-popup {
