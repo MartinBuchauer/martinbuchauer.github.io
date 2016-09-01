@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8' />
-    <title></title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css' rel='stylesheet' />
+  <meta charset='utf-8' />
+  <title></title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css' rel='stylesheet' />
 
-    // Mapbox Geocoder
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
-
-
-
-
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-
+  <!-- Mapbox Geocoder -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+  <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
 <div id='map'></div>
 <!-- <div id='location-title'></div>
 <div id='location-description'></div> -->
-// fly to Area
+<!-- fly to Area -->
 <div id='fit_to'>
 <button onClick="changeButton('Munich')" class="button">Fly to Munich</button></br>
 <button onClick="changeButton('Alps')" class="button"> Fly to the Alps</button></br>
@@ -31,7 +26,7 @@
 </div>
 
 
-// Change Style
+<!-- Change Style -->
 
 <div id='menu'>
     <button onClick="changeStyle('dark')" class="button_layer" >Dark </button></br>
