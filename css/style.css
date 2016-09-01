@@ -17,15 +17,25 @@ body { margin:0; padding:0; }
 
     }*/
 
-    .mapboxgl-popup {
-          background:#DBEFFF;
-          color:#444;
-           max-width: 400px;
-           font: 16px/20px 'Garamond',Arial, Garamond;
-           font-weight: 600;
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 16px/20px 'Garamond',Arial, Garamond;
+  font-weight: 600;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: #DBEFFF;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: #DBEFFF;
+}
+
+.mapboxgl-popup-content {
+  background-color: #DBEFFF;
+}
 
 
-       }
 
 .button{
 position: relative;
