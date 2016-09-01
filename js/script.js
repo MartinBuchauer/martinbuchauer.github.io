@@ -84,8 +84,7 @@ map.on('mousemove', function(e) {
     // Populate the popup and set its coordinates
     // based on the feature found.
     popup.setLngLat(feature.geometry.coordinates)
-    .setHTML(feature.properties.url)
-    .setHTML(feature.properties.description)
+    .setHTML(feature.properties.url+feature.properties.description)
     .addTo(map);
 });
 
